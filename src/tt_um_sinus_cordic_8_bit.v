@@ -1,4 +1,4 @@
-module sinus_wave_generator_chazim_ITS_8 #( parameter MAX_COUNT = 10_000_000 ) (
+module tt_um_sinus_cordic_8_bit #( parameter MAX_COUNT = 10_000_000 ) (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
